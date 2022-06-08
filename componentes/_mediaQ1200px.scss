@@ -1,0 +1,133 @@
+@media screen and (max-width:1200px) {
+    
+    /* HEADER Y FOOTER */
+
+    header{
+        nav {
+            .imgLogo {
+                display: none;    
+            }
+    
+            h5{
+                display: block;
+                margin-top: 2%;              
+            }
+    
+            .hamburguesita {
+                display: block;
+                visibility: visible;
+                font-size: 32px;
+                margin-top: 2%;
+            }
+            .navegacion, .loguearse{
+                display: none;
+            }
+        }
+    }    
+    
+    footer {
+        height: 250px;
+        margin: 0;               
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .infofooter {
+            width: 110%;
+            transform: scale(0.85);
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+        }
+
+        .copyright h6{
+            font-size: 13px;
+        }
+    }
+    
+    /* INDEX */
+
+    .mainIndex {
+
+        .mateart figure div{        
+            opacity: 1;
+            transition: none;
+        }
+        .juegomat figure div{        
+            opacity: 1;
+            transition: none;
+        }
+        .accesorios figure div{        
+            opacity: 1;
+            transition: none;
+        }
+        .yerbas figure div{        
+            opacity: 1;
+            transition: none;
+        }
+    }  
+    
+    /* PRODUCTOS */
+
+    .mainProductos {
+        width: 100%;
+        height: 3710px;
+        display: grid;
+        grid-template-rows: 875px;
+        grid-template-columns: 100%;        
+        grid-template-areas: 
+            "ele1";
+
+        .filtroProductos {     
+            display: none;                
+        }
+
+        .articulosProductos {
+            grid-area: ele1;
+
+            .gruposarticulos {
+
+                .articulos {
+                    margin: auto;
+                    display: grid;
+                    grid-template-columns: 28% 28% 28%;
+                    grid-template-rows: 400px 400px;
+                    
+                    .card {
+                        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);    
+                        transition: all 0.25s;
+                        width: 12rem;
+                        transform: scale(0.8);       
+                    }  
+                }
+
+                button {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    /* CONTACTOS */
+
+    .contacContacto {
+
+        iframe {
+            transform: scale(0.7);
+            margin-left: -10%;            
+        }
+
+        ul {
+            transform: scale(0.9);
+        }
+    }
+    
+    /* SABIAS QUE Y SOBRE NOSOTROS */
+
+    .texto {
+        transform: scale(0.9);
+    }
+}

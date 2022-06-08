@@ -1,0 +1,12 @@
+{
+  "name": "matespages-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass style.scss ./css/estilototal.css -w --no-source-map -s compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

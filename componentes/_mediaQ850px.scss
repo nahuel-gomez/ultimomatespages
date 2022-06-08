@@ -1,0 +1,41 @@
+@media screen and (max-width:850px) {
+    
+    /* PRODUCTOS */
+
+    .mainProductos{
+        height: 5550px;
+    }
+    .articulos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 410px 410px;     
+    }
+    .articulos .card {
+        transform: scale(0.75);        
+    }
+
+    /* SABIAS QUE Y SOBRE NOSOTROS */
+
+    .texto {
+        width: 55%;
+        transform: scale(0.8);
+        margin-top: -20%;
+    }
+
+    /* CONTACTOS */
+    .mainContactos {
+
+        .recuadroform {
+            margin-right: -5%;
+            .contacContacto {
+                display: none;        
+            }
+            .formulario {
+                width: 100%;
+            }
+        }
+    }
+    
+    
+    
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilototal.css">
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Josefin+Sans:wght@300;400&family=Karla:ital,wght@0,300;0,400;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- GoogleIcon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Iconos Font Awesome -->
+    <script src="https://kit.fontawesome.com/7d6b54520f.js" crossorigin="anonymous"></script>
+
+    <meta name="description" content="Pasá y conocé todos nuestra tienda de Mates Pages">
+
+    <title>Mate's Pages</title>
+</head>
+<body>
+    <header>
+        <nav>            
+            <img src="../Imagenes/logomejor.com.png" class="imgLogo" alt="Mates Pages Logo">
+            <h5>Mate's Pages</h5>
+            <i class="hamburguesita fa-solid fa-bars"></i>
+            <div class="navegacion">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="productos.html">PRODUCTOS</a></li>
+                    <li><a href="sabias_que.html">SABIAS QUE</a></li>
+                    <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div class="loguearse"> 
+                <button type="button" class="btn btn-primary" >Login</button>
+                <button type="button" class="btn btn-light position-relative">
+                    <span class="material-icons">
+                        shopping_cart
+                        </span>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      0
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>                     
+            </div>              
+        </nav>
+    </header>
+    <main class="mainProductos">        
+        <div class="filtroProductos">
+            <h5>Moneda</h5>
+            <ul>
+                <li><input type="checkbox"> $ARS</li>
+                <li><input type="checkbox"> $USD</li>
+                <li><input type="checkbox"> $PYG</li>
+                <li><input type="checkbox"> $UYU</li>                
+            </ul>   
+            <h5>Precios</h5>
+            <ul>
+                <li><input type="checkbox"> Económico</li>
+                <li><input type="checkbox"> Intermedio</li>
+                <li><input type="checkbox"> De lujo</li>                
+            </ul> 
+            <h5>Origen</h5>
+            <ul>
+                <li><input type="checkbox"> Argento</li>
+                <li><input type="checkbox"> Guaraní</li>
+                <li><input type="checkbox"> Uruguayo</li>                
+            </ul>
+        </div>
+        <div class="articulosProductos">
+            <div class="gruposarticulos">
+                <h3>Mates artesanales</h3>
+                <div class="articulos">
+
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/rodocosita.jpg" class="card-img-top" alt="Mate artesanal Rodocosita" >
+                            <div class="card-body">
+                                <h5 class="card-title">Rodocosita</h5>
+                                <h6 class="card-title text-success">$33.310</h6>
+                                <p class="card-text">Mate de alpaca calabaza con set de bombilla piedra</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card " style="width: 18rem;">
+                            <img src="../Imagenes/imperial.jpg" class="card-img-top" alt="Mate artesanal Imperial">
+                            <div class="card-body">
+                                <h5 class="card-title">Imperial</h5>
+                                <h6 class="card-title text-success">$6.500</h6>
+                                <p class="card-text">Mate de virola de alpaca + bombilla de regalo</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card " style="width: 18rem;">
+                            <img src="../Imagenes/imperial_virola.jpg" class="card-img-top" alt="Imperial Virola">
+                            <div class="card-body">
+                                <h5 class="card-title">Imperial Virola</h5>
+                                <h6 class="card-title text-success">$4.578</h6>
+                                <p class="card-text">Mate de virola con borde de alpaca + bombilla de regalo</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card " style="width: 18rem;">
+                            <img src="../Imagenes/blur.png" class="card-img-top" alt="Mates artesanal Blur">
+                            <div class="card-body">
+                                <h5 class="card-title">Blur</h5>
+                                <h6 class="card-title text-success">$1.500</h6>
+                                <p class="card-text">Mate de caoba con revestimiento de cobre laminado</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card " style="width: 18rem;">
+                            <img src="../Imagenes/torneado.jpg" class="card-img-top" alt="Mate torneado">
+                            <div class="card-body">
+                                <h5 class="card-title">Álamo estacionado</h5>
+                                <h6 class="card-title text-success">$600</h6>
+                                <p class="card-text">Mate torneado artesanalmente con cincel de alpaca australiana</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/mate-camionero.jpg" class="card-img-top" alt="Mate camionero">
+                            <div class="card-body">
+                                <h5 class="card-title">Camionero</h5>
+                                <h6 class="card-title text-success">$600</h6>
+                                <p class="card-text">Mate de pino patagónico revestido en cuerina semisintetica</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>                
+                <button type="button" class="btn btn-success">Ver más</button>
+            </div>
+            <div class="gruposarticulos">
+                <h3>Juegos de mate</h3>
+                <div class="articulos">
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/descarga.jpg" class="card-img-top" alt="Set de mate de cuerina y roble">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuerina y roble</h5>
+                                <h6 class="card-title text-success">$2.000</h6>
+                                <p class="card-text">Mate de pino patagónico revestido en cuerina semisintetica</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/juego_de_mate_gato.jpg" class="card-img-top" alt="Set de mate My little cat">
+                            <div class="card-body">
+                                <h5 class="card-title">My little cat</h5>
+                                <h6 class="card-title text-success">$1.800</h6>
+                                <p class="card-text">Set de mate con funda asilante y termo de acero inoxidable</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/juego_de_mate_negro.jpg" class="card-img-top" alt="Set de mate Black">
+                            <div class="card-body">
+                                <h5 class="card-title">Black Set</h5>
+                                <h6 class="card-title text-success">$2.300</h6>
+                                <p class="card-text">Set con mate de caoba revestido en cuerina semisintetica. </p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/juego_papel_de_caoba.jpg" class="card-img-top" alt="Set de mate madera">
+                            <div class="card-body">
+                                <h5 class="card-title">Set color Madera</h5>
+                                <h6 class="card-title text-success">$3.500</h6>
+                                <p class="card-text">Mate de pino patagónico revestido en cuerina color madera de caoba</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/contigo_hasta_el_fin_del_mundo.jpg" class="card-img-top" alt="Set de mate personalizado">
+                            <div class="card-body">
+                                <h5 class="card-title">Set personalizado</h5>
+                                <h6 class="card-title text-success">$1.750</h6>
+                                <p class="card-text">Set de mate personalizado "Contigo hasta el fin del mundo"</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/mickey_mouse.webp" class="card-img-top" alt="Set de mate Mickey Mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Mickey Mouse</h5>
+                                <h6 class="card-title text-success">$3.500</h6>
+                                <p class="card-text">Set de mate con temática de Mickey Mouse</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success">Ver más</button>
+            </div>
+            <div class="gruposarticulos">
+                <h3>Accesorios</h3>
+                <div class="articulos">
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/bombillas.jpg" class="card-img-top" alt="Bombillas artesanales">
+                            <div class="card-body">
+                                <h5 class="card-title">Bombillas Artesanales</h5>
+                                <h6 class="card-title text-success">$400</h6>
+                                <p class="card-text">Bombillas de alpaca y de acero inoxidable hechas a medida</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/posamate.webp" class="card-img-top" alt="Bases y pie de mates">
+                            <div class="card-body">
+                                <h5 class="card-title">Pie soporte</h5>
+                                <h6 class="card-title text-success">$400</h6>
+                                <p class="card-text">Soporte para mate diametros desde 2" 1/2 a 4"</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/Porta-Mate.jpg" class="card-img-top" alt="Bases y pie de mates">
+                            <div class="card-body">
+                                <h5 class="card-title">Portamate</h5>
+                                <h6 class="card-title text-success">$800</h6>
+                                <p class="card-text">Portamate negro. Colores y estampados a eleccion</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/escurridor_de_mate.jpg" class="card-img-top" alt="Articulos para matear">
+                            <div class="card-body">
+                                <h5 class="card-title">Escurrido de mate</h5>
+                                <h6 class="card-title text-success">$650</h6>
+                                <p class="card-text">Escurrido de mate. Colores: rosa - rojo - verde</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/mesita_de_mate.jpg" class="card-img-top" alt="Mesa de Mate">
+                            <div class="card-body">
+                                <h5 class="card-title">Mesa para mate</h5>
+                                <h6 class="card-title text-success">$3.500</h6>
+                                <p class="card-text">Mesita para mate. Diseños para interior y exterior</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/yerbera.webp" class="card-img-top" alt="Set de mates">
+                            <div class="card-body">
+                                <h5 class="card-title">Yerbera y azucarera</h5>
+                                <h6 class="card-title text-success">$2.600</h6>
+                                <p class="card-text">Yerbera y azucarera de caoba con base incluida</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success">Ver más</button>                            
+            </div>
+            <div class="gruposarticulos">
+                <h3>Yerbas</h3>
+                <div class="articulos">
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/hierba_de_mandala.jpg" class="card-img-top" alt="Hiebas para degustar - Hierbas de mandala">
+                            <div class="card-body">
+                                <h5 class="card-title">Hierba de mandala</h5>
+                                <h6 class="card-title text-success">$900</h6>
+                                <p class="card-text">Hiebas para infusión de Gourmet artesanal.</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/blend_de_hierbas.webp" class="card-img-top" alt="Blend de Hierbas">
+                            <div class="card-body">
+                                <h5 class="card-title">Blend de hierbas</h5>
+                                <h6 class="card-title text-success">$390</h6>
+                                <p class="card-text">Blend de hiervas y yuyos. Varios sabores. Tubo 50cc</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/blend-de-hierbas-coco.jpg" class="card-img-top" alt="Hierbas para degustar">
+                            <div class="card-body">
+                                <h5 class="card-title">Blend de hierbas Sattva</h5>
+                                <h6 class="card-title text-success">$850</h6>
+                                <p class="card-text">Blend de hiervas con coco rallado para infusión. 130gr</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/mix_hiebas.jpeg" class="card-img-top" alt="Hierbas para degustar">
+                            <div class="card-body">
+                                <h5 class="card-title">Mix hierbas Amor</h5>
+                                <h6 class="card-title text-success">$600</h6>
+                                <p class="card-text">Hierbas surtidas de Melisa y Pétalos de rosas. 130gr</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/mix_relax.jpg" class="card-img-top" alt="Mix de hierbas">
+                            <div class="card-body">
+                                <h5 class="card-title">Mate mix 24/7</h5>
+                                <h6 class="card-title text-success">$1.500</h6>
+                                <p class="card-text">Mix hierbas de manzanilla, tilo, valeriana. 600gr.</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Imagenes/blend_manzanilla.webp" class="card-img-top" alt="Mix de hierbas">
+                            <div class="card-body">
+                                <h5 class="card-title">Blend hierbas Cushe</h5>
+                                <h6 class="card-title text-success">$650</h6>
+                                <p class="card-text">Blend de  boldo-manzanilla para infusión. 350gr.</p>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success">Ver más</button>
+            </div>
+            
+        </div>
+    </main>
+    
+    <footer>
+        <div class="infofooter">
+            <div class="contacfooter">            
+                <ul>
+                    <li><h5>Encontranos en:</h5></li> 
+                    <li><h6><i class="fas fa-map-marker-alt"></i>  Av. Rodriguez 3541 - Ciudad de Mendoza - Argentina</h6></li>
+                    <li><h6><i class="fab fa-whatsapp"></i> +54 9261 1569852236</h6></li>
+                    <li><h6><i class="far fa-envelope"></i> matespages-contacto@gmail.com</h6></li>                
+                </ul>
+            </div>
+            <div class="logofooter">                
+                <img src="../Imagenes/logomejor.png" alt="Mates Pages Logo" width="115px">
+                <h3>Mate's Pages</h3>       
+            </div>
+            <div class="redesfooter">
+                <h4>Buscanos en las redes</h4>
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></i></a>
+                </div>         
+            </div>
+        </div>      
+        <div class="copyright">
+            <h6><i class="far fa-copyright"></i>  Copyright 2022 - Todos los derechos reservados</h6>
+        </div>
+    </footer>
+</body>
+</html>
